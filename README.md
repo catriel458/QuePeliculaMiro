@@ -42,7 +42,9 @@ Una aplicación interactiva para los amantes del cine. ¿Te has quedado sin idea
     Ver detalles: Haz clic en cualquier película para ver más detalles, incluyendo el tráiler, la sinopsis y la calificación.
     Favoritos: Guarda las películas que te gusten en la sección de "Favoritos" para verlas más tarde.
 
-la podes ver deployada aqui: 
+🦁 la podes ver deployada aqui: 
+
+ https://que-pelicula-miro.vercel.app/
 
 
 
