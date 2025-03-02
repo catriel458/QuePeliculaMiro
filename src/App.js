@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Home from "./pages/Home";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={darkMode ? "bg-black text-white" : "bg-gray-900 text-white"}>
+      {/* Botón para cambiar el modo */}
+      <button
+        onClick={() => setDarkMode(!darkMode)}
+        className="absolute top-4 right-4 bg-cineDorado text-cineRojo px-3 py-1 rounded-lg"
+      >
+        {darkMode ? "☀️ Claro" : "🌙 Oscuro"}
+      </button>
+
+      {/* Pasamos la prop darkMode a Home */}
+      <Home darkMode={darkMode} />
     </div>
   );
 }
