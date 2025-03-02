@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+🎬 ¿Qué Película Miro? 🍿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación interactiva para los amantes del cine. ¿Te has quedado sin ideas de qué película ver? ¡Este es el lugar ideal! Usando la API de TMDb (The Movie Database), puedes descubrir miles de películas, filtrar por género, fecha de estreno, calificación y más. Además, puedes guardar tus favoritas para verlas en el futuro. ¡Explora trailers, lee sinopsis y encuentra tu próxima película!
+🚀 Características principales
 
-## Available Scripts
+    Filtro de películas: Filtra las películas por calificación, género, fecha de estreno y más.
+    Búsqueda avanzada: Encuentra cualquier película por nombre o por su género.
+    Favoritos: Guarda las películas que te gustan para verlas después.
+    Vista previa de trailers: Mira el tráiler oficial de cada película.
+    Sinopsis detallada: Lee un resumen completo de la película.
+    Modo Oscuro/Claro: Cambia entre el modo oscuro y claro según tu preferencia.
+    Animaciones suaves: ¡Disfruta de una experiencia fluida y atractiva con animaciones de Framer Motion!
 
-In the project directory, you can run:
+🌐 Tecnologías utilizadas
 
-### `npm start`
+    React: Librería de JavaScript para crear interfaces de usuario interactivas.
+    Tailwind CSS: Framework de CSS para un diseño rápido y flexible.
+    Framer Motion: Biblioteca para animaciones de alta calidad.
+    TMDb API: API de películas para obtener datos en tiempo real sobre las películas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎬 Demostración de la app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💻 Instalación
 
-### `npm test`
+    Clona el repositorio
+    git clone https://github.com/catriel458/QuePeliculaMiro.git
+    cd QuePeliculaMiro
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+  Instala las dependencias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  Inicia la aplicación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm start
 
-### `npm run eject`
+🎥 Cómo usar la app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Buscar películas: Utiliza el campo de búsqueda para encontrar cualquier película por nombre.
+    Filtrar películas: Filtra las películas por género, calificación y fecha de estreno.
+    Ver detalles: Haz clic en cualquier película para ver más detalles, incluyendo el tráiler, la sinopsis y la calificación.
+    Favoritos: Guarda las películas que te gusten en la sección de "Favoritos" para verlas más tarde.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+la podes ver deployada aqui: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+ Próximos pasos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Mejorar el sistema de favoritos, permitiendo sincronizar los favoritos entre sesiones.
+    Implementar un sistema de autenticación para guardar favoritos por usuario.
+    Mejorar el diseño de la UI para hacerlo más atractivo.
+    Añadir más filtros avanzados como popularidad, duración, etc.
+    
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
